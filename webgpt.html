@@ -1,0 +1,278 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extinct Animals</title>
+    <style>
+        /* styles.css */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4; /* Background color */
+        }
+
+        header {
+            background-color: teal;
+            color: white;
+            padding: 20px;
+            position: sticky;
+            top:0px;
+            z-index: 8;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav li a:hover {
+            text-shadow: 4px 5px 6px black;
+        }
+
+        .picture-slider {
+            position: relative;
+            overflow: hidden;
+            height: 660px; /* Set desired height for the slider */
+        }
+
+        .slide-container {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            width: 300%; /* Adjusted width to accommodate all slides */
+        }
+
+        .slide {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .pictureds {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            height: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-color: rgb(0 0 0 / 75%);
+            color: white;
+            padding: 20px;
+            width: 42%;
+            box-sizing: border-box;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .pictureds h2 {
+            margin-top: 0;
+        }
+
+        h1, h2 {
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: rgb(9, 102, 71);
+            font-size: 36px; /* Larger font size */
+            margin-bottom: 20px; /* Added margin */
+        }
+
+
+        .action-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: teal;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .action-button:hover {
+            background-color: #051f1f;
+        }
+
+        /* Timeline styles */
+        .timeline {
+            padding: 0;
+            margin: 40px 0;
+            position: relative;
+        }
+
+        .timeline-item {
+            box-shadow: 3px 4px 11px;
+            overflow: hidden;
+            padding: 33px 99px;
+            background-color: #f9f9f9;
+            border-radius: 61px;
+            position: relative;
+            margin-bottom: 20px;
+            width: 60%;
+            margin-left: 165px;
+        }
+
+        .timeline-content {
+            margin-left: 20px;
+            margin-top: 0;
+        }
+
+        .timeline-image {
+            max-width: 200px;
+            height: auto;
+            border-radius: 5px;
+            float: left;
+            margin-right: 20px;
+        }
+
+        .more-info-button {
+            background-color: teal;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            float: right;
+        }
+
+        .more-info-button:hover {
+            background-color: #051f1f;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body style="background-color: rgba(208, 243, 231, 0.904);">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="webgpt.html">Home</a></li>
+                <li><a href="about_us.html">About us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="report.html">Report</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="picture-slider">
+        <div class="slide-container">
+            <img src="Javan_rhino_.jpg" alt="rhino" class="slide">
+            <img src="leapord.jpg" alt="leapord" class="slide">
+            <img src="gorilla_family_.jpg" alt="GORILLAS" class="slide">
+        </div>
+        <div class="pictureds"><h2>Bird 2</h2><br><p>Description of Bird 2</p></div>
+    </div>
+
+    <h1>EXTINCT ANIMALS <br> BY TIME</h1>
+    <p style="
+    text-align: center;
+    font-family: cursive;
+    font-style: normal;
+    font-size: 19px;
+">Extinction is the termination of a taxon by the death of its last member. The moment of extinction is generally considered to be the death of the last individual of the species, although the capacity to breed and recover may have been lost before this point. Extinction therefore becomes a certainty when there are no surviving individuals that can reproduce and create a new generation. The reasons for extinction can be natural or caused by human activities such as habitat destruction, pollution, and overhunting.</p>
+    
+    
+    <p style="
+    text-align: center;
+    font-family: cursive;
+    font-style: normal;
+    font-size: 19px;
+">Extinct animals are species that no longer exist on Earth. They are animals that have died out and have no living representatives. Extinction can occur naturally over geological time spans, but human activity has accelerated the rate of extinction in recent times. Some well-known extinct animals include the dodo, Tasmanian tiger, and passenger pigeon.</p>
+<hr size="5px" color="black">
+<h1>List of the Extinct Animals </h1>
+
+    <ul class="timeline">
+        <li class="timeline-item">
+            <img src="saber-toothed cats.jpg" alt="saber-toothed" class="timeline-image">
+            <div class="timeline-content">
+                <h3>Smilodon <br>2.5mya-10,000 years ago</h3>
+                <p>Smilodon is a genus of felids belonging to the extinct subfamily Machairodontinae. It is one of the best known saber-toothed predators and prehistoric mammals. Although commonly known as the saber-toothed tiger, it was not closely related to the tiger or other modern catsIn North America, Smilodon hunted large herbivores such as bison and camels, and it remained successful even when encountering new prey species in South America. Smilodon is thought to have killed its prey by holding it still with its forelimbs and biting it, but it is unclear in what manner the bite itself was delivered.</p>
+                <button class="more-info-button"><a href="https://en.wikipedia.org/wiki/Smilodon" target="_blank" style="text-decoration: none; color: white;">View more</a></button>
+            </div>
+        </li>
+
+        <li class="timeline-item">
+            <img src="wolly_elephant.jpg" alt="wolly_elephant" class="timeline-image">
+            <div class="timeline-content">
+                <h3>Woolly Mammoth<br>10,000 years ago-1701</h3>
+                <p>The woolly mammoth (Mammuthus primigenius) is an extinct species of mammoth that lived from the Middle Pleistocene until its extinction in the Holocene epoch. It was one of the last in a line of mammoth species, beginning with the African Mammuthus subplanifrons in the early Pliocene.The appearance and behaviour of this species are among the best studied of any prehistoric animal because of the discovery of frozen carcasses in Siberia and North America, as well as skeletons, teeth, stomach contents, dung, and depiction from life in prehistoric cave paintings. Mammoth remains had long been known in Asia before they became known to Europeans in the 17th century. </p>
+                <button class="more-info-button"><a href="https://en.wikipedia.org/wiki/Woolly_mammoth" target="_blank" style="text-decoration: none; color: white;">View more</a></button>
+            </div>
+        </li>
+
+        <li class="timeline-item">
+            <img src="dodo.jpg" alt="dodo" class="timeline-image">
+            <div class="timeline-content">
+                <h3>Dodo<br>1598-1662</h3>
+                <p>The dodo (Raphus cucullatus) is an extinct flightless bird that was endemic to the island of Mauritius, which is east of Madagascar in the Indian Ocean. The dodo's closest relative was the also-extinct and flightless Rodrigues solitaire. The two formed the subfamily Raphinae, a clade of extinct flightless birds that were a part of the family which includes pigeons and doves. The closest living relative of the dodo is the Nicobar pigeon. A white dodo was once thought to have existed on the nearby island of Réunion, but it is now believed that this assumption was merely confusion based on the also-extinct Réunion ibis and paintings of white dodos.</p>
+                <button class="more-info-button"><a href="https://en.wikipedia.org/wiki/Dodo" target="_blank" style="text-decoration: none; color: white;">View more</a></button>
+            </div>
+        </li>
+        <li class="timeline-item">
+            <img src="passenger_pigeon.png" alt="passenger_pigeon" class="timeline-image">
+            <div class="timeline-content">
+                <h3>Passenger Pigeon<br>1800-1914</h3>
+                <p>The passenger pigeon or wild pigeon (Ectopistes migratorius) is an extinct species of pigeon that was endemic to North America. Its common name is derived from the French word passager, meaning "passing by", due to the migratory habits of the species. The scientific name also refers to its migratory characteristics. The morphologically similar mourning dove (Zenaida macroura) was long thought to be its closest relative, and the two were at times confused, but genetic analysis has shown that the genus Patagioenas is more closely related to it than the Zenaida doves.</p>
+                <button class="more-info-button"><a href="https://en.wikipedia.org/wiki/Passenger_pigeon" target="_blank" style="text-decoration: none; color: white;">View more</a></button>
+            </div>
+        </li>
+
+        <!-- Add more timeline items as needed -->
+    </ul>
+
+    <footer>
+        <a href="contact_us_TOS_PP.html">Contact</a>
+        <a href="contact_us_TOS_PP.html">Terms of Service</a>
+        <a href="contact_us_TOS_PP.html">Privacy Policy</a>
+    </footer>
+
+    <script>
+        // script.js
+        const slides = document.querySelectorAll('.slide');
+        const slideContainer = document.querySelector('.slide-container');
+        const pictureds = document.querySelector('.pictureds');
+        const descriptions = [
+            { name: "JAVAN RHINOS", description: "Once found throughout south-east Asia, Javan rhinos have suffered a staggering decline in their numbers due to hunting and habitat loss. The lone wild population of Javan rhinos is one of the rarest of the rhino species—around 75 individuals—which can only be found on the island of Java, Indonesia.  The Ujung Kulon National Park, a World Heritage Site, is the last remaining refuge of Javan rhinos. But the area also suffers from the invading Arenga palm, leaving the rhinos with less food to eat and less habitat to roam. Besides, the small Javan rhino population is also extremely vulnerable to extinction due to natural catastrophes, disease, poaching and potential inbreeding." },
+            { name: "AMUR LEOPARD", description: "The Amur leopard is one of the rarest big cats in the world, with only around 100 individuals left in the wild. Although their wild population seems to be stable and increasing, these leopard subspecies are still critically endangered since 1996. And there is a good reason that: Amur leopards can only be found in a relatively small region of the far east of Russia and north-eastern China at present.  The remaining Amur leopards face multiple threats to their survival, including habitat loss and fragmentation, prey scarcity and transportation infrastructure such as roads. However, there is hope for this rare big cat. Around 75% of their home range lies in protected areas in Russia and China, and they are also moving into suitable habitats outside of these protected areas." },
+            { name: "MOUNTAIN GORILLAS", description: "The Mountain gorilla is a subspecies of the eastern gorilla, which lives in two isolated populations in the high-altitude forests up in the volcanic, mountainous regions of the Democratic Republic of Congo, Rwanda and Uganda, and in the Bwindi Impenetrable National Park of Uganda.  The Virunga Landscape has a history of political instability along with high levels of poverty in the region. This poses a substantial threat to mountain gorilla numbers as people have moved into areas closer to these great apes for food, shelter and space—over 500,000 people live near mountain gorilla habitat at present. Despite this, mountain gorillas are making a promising recovery with conservation efforts and interventions from local and international partners and the WWF through the International Gorilla Conservation Programme. At present, mountain gorillas are currently listed as endangered species, with just over 1,000 individuals in the wild. However, multiple threats remain that can hinder recovery progress for this species." }
+        ]; // List of corresponding descriptions
+
+        let currentIndex = 0;
+
+        function showSlide(index) {
+            slideContainer.style.transform = `translateX(-${index * (100 / slides.length)}%)`;
+            pictureds.innerHTML = `<h2>${descriptions[index].name}</h2><p>${descriptions[index].description}</p>`;
+        }
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % slides.length;
+            showSlide(currentIndex);
+        }
+
+        // Call nextSlide function initially
+        nextSlide();
+
+        // Call nextSlide function every 3 seconds to change the slide
+        setInterval(nextSlide, 7000);
+    </script>
+</body>
+</html>

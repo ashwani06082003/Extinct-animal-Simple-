@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report</title>
+    <style>
+        /* CSS styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: teal;
+            color: white;
+            padding: 20px;
+            position: sticky;
+            top: 0;
+            z-index: 8;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav li a:hover {
+            text-shadow: 4px 5px 6px black;
+        }
+
+        .content {
+            padding: 40px;
+            text-align: center;
+        }
+
+        h1, h2 {
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: rgb(9, 102, 71);
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-family: cursive;
+            font-style: normal;
+            font-size: 19px;
+            text-align: center;
+        }
+
+        .action-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: teal;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .action-button:hover {
+            background-color: #051f1f;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="webgpt.html">Home</a></li>
+                <li><a href="about_us.html">About us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="report.html">Report</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h1>REPORT</h1>
+        <p>Our report section provides valuable insights, analysis, and updates on conservation efforts, endangered species, and environmental issues. Through comprehensive research, data collection, and expert commentary, we aim to raise awareness about pressing conservation challenges and advocate for sustainable solutions. Stay informed and explore our latest reports to learn more about the state of our planet's biodiversity and the urgent need for conservation action.</p>
+        <form id="reportForm">
+            <textarea id="reportText" rows="11" cols="50" placeholder="Write your report here..." style="border-radius: 8px;" maxlength="500"></textarea><br>
+            <button type="submit" class="action-button">Submit Report</button>
+        </form>
+    </div>
+
+    <footer>
+        <a href="contact_us_TOS_PP.html">Contact</a>
+        <a href="contact_us_TOS_PP.html">Terms of Service</a>
+        <a href="contact_us_TOS_PP.html">Privacy Policy</a>
+    </footer>
+
+    <script>
+        document.getElementById('reportForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the default form submission
+
+            // Get the report text from the textarea
+            const report = document.getElementById('reportText').value;
+
+            // Open the default email client with the report text pre-filled
+            window.location.href = 'mailto:bhanuking0786@gmail.com?subject=New Report&body=' + encodeURIComponent(report);
+        });
+    </script>
+</body>
+</html>
